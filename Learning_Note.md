@@ -7,3 +7,6 @@
 
 --
 ## 2. 
+
+authropic connection
+claude code prompting
