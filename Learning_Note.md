@@ -14,3 +14,10 @@
 - **Subagents**: Small helper agents that work on specific tasks in parallel, such as debugging, testing, or documentation. They help divide a large task into smaller, focused jobs.
 - **Plan mode**: A structured way to think before acting. It helps Claude analyze the task, create a step-by-step plan, and then execute carefully, especially for larger or more complex work.
 - **Building an agent**: A Claude agent is usually defined with key elements such as name, description, memory, location, and tools. The name identifies it, the description explains its role, memory stores context, location defines where it works, and tools tell it what it can do.
+
+---
+## 3.
+
+agent view
+subagents
+agent teams
