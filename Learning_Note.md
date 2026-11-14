@@ -21,3 +21,6 @@
 agent view
 subagents
 agent teams
+skills in claude code
+plugins in claude code
+claude code mcp
