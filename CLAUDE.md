@@ -10,6 +10,7 @@ A personal learning journal for Claude Code. It holds Markdown notes and screens
 
 - `Learning_Note.md`: the main notes, split into numbered sessions (`## 1.`, `## 2.`, ...). Each session is a bullet list of `- **Topic**: short explanation`. A session that hasn't been written yet is just a list of topic names (for example, the current `## 3.` lists topics to study: agent view, subagents, agent teams, skills, plugins, MCP). Sessions are separated by a `---` line.
 - `Troubleshooting.md`: numbered problems the author has solved, each using the same headings: Environment, Error, Problem, Cause, Solution, Note.
+- `README.md`: overview of the folder. When a session or a tool in `.claude/` is added, update its "Topics covered" and "Tools" tables.
 - `Whats_New.md`: a log of Claude Code updates, written by the `whats-new` skill. Newest entry at the top; each entry's heading records the version checked up to.
 - `.claude/`: the project's own skills (`research-topic`, `whats-new`, both using the exa plugin), the `note-writer` subagent and its memory.
 - `screenshots/`: images numbered to match the sessions (`1.png`, `2.png`, ...).
