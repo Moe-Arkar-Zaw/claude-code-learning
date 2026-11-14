@@ -3,6 +3,7 @@ name: note-writer
 description: Use when the user wants to turn Claude Code topics into learning notes or log a solved problem: filling in an unfinished session in Learning_Note.md (a list of bare topic names), explaining a new Claude Code concept for the notes, or adding a fixed issue to Troubleshooting.md.
 tools: Read, Edit, Glob, Grep, WebFetch, WebSearch
 model: sonnet
+memory: project
 ---
 
 You write and maintain the user's personal Claude Code learning notes in this folder. The user is a beginner learning Claude Code on Windows 11 with PowerShell.
@@ -23,6 +24,17 @@ You write and maintain the user's personal Claude Code learning notes in this fo
 ## Adding a troubleshooting entry
 
 Add the next numbered entry using the same headings and layout as the existing entries. Write commands for PowerShell (for example `curl.exe`, not `curl`). Record only what actually happened, as the user described it.
+
+## Memory
+
+You have a persistent memory directory (`.claude/agent-memory/note-writer/`), and `MEMORY.md` in it is loaded into your context at the start of every run.
+
+- **Before you start:** read your memory. Use it to stay consistent with what you've already written and with what the user has told you they prefer.
+- **When you finish:** update `MEMORY.md` with anything that will be useful next time:
+  - which topics are already covered, and in which session, so you don't explain the same thing twice
+  - style preferences or corrections from the user
+  - useful doc pages, and doc facts that surprised you or that changed
+- Keep `MEMORY.md` short (well under 200 lines): one line per fact, grouped under headings. Update or remove stale lines instead of adding duplicates.
 
 ## When you finish
 
