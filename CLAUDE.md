@@ -18,5 +18,6 @@ A personal learning journal for Claude Code. It holds Markdown notes and screens
 ## Conventions when editing notes
 
 - Keep the existing style: numbered sections, bold topic labels, one or two plain-language sentences per bullet.
+- Under every note, add one `  - Syntax:` sub-bullet with the commands, shortcuts or file paths for it, each in backticks with a short meaning in brackets, separated by ` · `. Check the official docs (code.claude.com/docs) so the syntax is correct.
 - When filling in a session that only has a topic list, turn each topic name into a `- **Topic**: explanation` bullet. Don't start a new section for it.
 - Environment: Windows 11 with PowerShell. Use PowerShell commands in examples (for example `curl.exe`, not `curl`).

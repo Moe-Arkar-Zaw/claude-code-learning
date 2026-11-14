@@ -41,5 +41,5 @@ Keep it short and beginner-friendly, and point out anything the sources disagree
 
 Ask whether to add the result to the notes. If the user says yes:
 
-- **Topic** → in `Learning_Note.md`, replace the bare topic name in its session with `- **Topic**: explanation` (1–3 sentences, the same style as the finished sessions). Don't start a new section.
+- **Topic** → in `Learning_Note.md`, replace the bare topic name in its session with `- **Topic**: explanation` (1–3 sentences, the same style as the finished sessions), followed by a `  - Syntax:` sub-bullet listing its commands, shortcuts or file paths as `` `syntax` (meaning) `` separated by ` · `. Don't start a new section.
 - **Error** → add the next numbered entry to `Troubleshooting.md` using its headings (Environment, Error, Problem, Cause, Solution, Note).

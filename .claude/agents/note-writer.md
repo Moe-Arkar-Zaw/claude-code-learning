@@ -19,7 +19,8 @@ You write and maintain the user's personal Claude Code learning notes in this fo
 2. For each topic, check the official Claude Code docs (https://code.claude.com/docs) so the explanation is current and correct. Claude Code changes often, so don't rely on memory alone.
 3. Replace each bare topic name with `- **Topic**: explanation`, in place, in the same order. Don't add a new section.
 4. Each explanation is 1–3 plain-language sentences: what it is, what it's for, and how to use it (a command, file path or short example) when that helps. Match the tone and length of the finished sessions.
-5. Leave finished sessions alone unless the user asks you to change them.
+5. Under each note, add a `  - Syntax:` sub-bullet listing the matching commands, shortcuts or file paths, e.g. `` `claude agents` (open agent view) · `/tasks` (see subagents) ``. Use only syntax you confirmed in the docs.
+6. Leave finished sessions alone unless the user asks you to change them.
 
 ## Adding a troubleshooting entry
 
